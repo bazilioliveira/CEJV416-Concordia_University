@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - The Pleasures of Coffee</title>
+    <link rel="stylesheet" href="css/style_finalproject.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_bar" id="myNavBar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="index.html" class="home_link">Home</a>
+            <a href="cappuccino.html" class="cappuccino_link">Cappuccino</a>
+            <a href="americano.html" class="americano_link">Americano</a>
+            <a href="espresso.html" class="espresso_link">Espresso</a>
+            <a href="macchiato.html" class="macchicato_link">Macchiato</a>
+            <a href="mocha.html" class="mocha_link">Mocha</a>
+            <a href="latte.html" class="latte_link">Latte</a>
+            <a href="About.html" class="about">About</a>
+        </div>
+        <span onclick="openNav()" id="trigger">☰</span>
+    </nav>
+
+    <div>
+        <h1 id="title_about">About</h1>
+        <p id="p1_about">Final project - CEWP 329 - HTML/CSS</p>
+        <p id= "p2_about">This is my final project on HTML/CSS. Please, leave a comment, suggestion or feedback. Thank you!</p>
+    </div>
+    <section id="form_wrapper">
+        <form action="mailto:basilionmhc@hotmail.com" method="post" enctype="text/plain" validate>
+            <label for="fname">First Name</label>
+            <input type="text"  id="fname"  placeholder="John"  name="firstname" required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text"  id="lname"  placeholder="Smith"  name="lastname" required>
+
+            <label for="mail">E-mail</label>
+            <input type="email"  id="mail"  placeholder="John@somewhere.com"  name="email" required>
+
+            <label for="tarea">Comments</label>
+            <input id="tarea"  placeholder="give us a comment"  name="comments" required>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+
+            
+        </form>
+
+    </section>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("myNavBar").style.width = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("myNavBar").style.width = "0";
+    }
+    </script>
+</body>
+</html>

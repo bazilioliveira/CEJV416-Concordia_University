@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cappuccino - The Pleasures of Coffee</title>
+    <link rel="stylesheet" href="css/style_finalproject.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_bar" id="myNavBar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="index.html" class="home_link">Home</a>
+            <a href="cappuccino.html" class="cappuccino_link">Cappuccino</a>
+            <a href="americano.html" class="americano_link">Americano</a>
+            <a href="espresso.html" class="espresso_link">Espresso</a>
+            <a href="macchiato.html" class="macchicato_link">Macchiato</a>
+            <a href="mocha.html" class="mocha_link">Mocha</a>
+            <a href="latte.html" class="latte_link">Latte</a>
+            <a href="About.html" class="about">About</a>
+        </div>
+        <span onclick="openNav()" id="trigger">☰</span>
+    </nav>
+
+    <header class="cappuccino_history">
+        <h1>Cappuccino</h1>
+        <p class="cappuccino_paragraph1">A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy milks, and flavoring with cinnamon or chocolate powder. It is typically smaller in volume than a caffè latte, with a thicker layer of microfoam.</p>
+
+        <video class="coffee_video" muted autoplay controls>
+            <source src="videos/cappuccino.mp4" type="video/mp4">
+        </video>
+
+        <p class="cappuccino_paragraph2">The name comes from the Capuchin friars, referring to the colour of their habits, and in this context referring to the colour of the beverage when milk is added in small portion to dark, brewed coffee (today mostly espresso). The physical appearance of a modern cappuccino with espresso créma and steamed milk is a result of a long evolution of the drink. The Viennese bestowed the name "Kapuziner", possibly in the 18th century, on a version that included whipped cream and spices of unknown origin. The Italian cappuccino was unknown outside Italy until the 1930s, and seems to be born out of Viennese-style cafés in Trieste and other cities in the former Austria in the first decades of the 20th century. The drink has since spread worldwide and can be found at a number of establishments.</p>
+    </header>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("myNavBar").style.width = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("myNavBar").style.width = "0";
+    }
+    </script>
+</body>
+</html>

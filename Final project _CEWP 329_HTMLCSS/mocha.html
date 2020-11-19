@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha - The Pleasures of Coffee</title>
+    <link rel="stylesheet" href="css/style_finalproject.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_bar" id="myNavBar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="index.html" class="home_link">Home</a>
+            <a href="cappuccino.html" class="cappuccino_link">Cappuccino</a>
+            <a href="americano.html" class="americano_link">Americano</a>
+            <a href="espresso.html" class="espresso_link">Espresso</a>
+            <a href="macchiato.html" class="macchicato_link">Macchiato</a>
+            <a href="mocha.html" class="mocha_link">Mocha</a>
+            <a href="latte.html" class="latte_link">Latte</a>
+            <a href="About.html" class="about">About</a>
+        </div>
+        <span onclick="openNav()" id="trigger">☰</span>
+    </nav>
+
+    <header class="cappuccino_history">
+        <h1>Mocha</h1>
+        <p class="cappuccino_paragraph1">A caffè mocha, also called mocaccino, is a chocolate-flavoured variant of a caffè latte. Other commonly used spellings are mochaccino and also mochachino. The name is derived from the city of Mocha, Yemen, which was one of the centers of early coffee trade.</p>
+
+        <video class="coffee_video" muted autoplay controls>
+            <source src="videos/mocha.mp4" type="video/mp4">
+        </video>
+
+        <p class="cappuccino_paragraph2">Like a caffè latte, caffè mocha is based on espresso and hot milk but with added chocolate flavouring and sweetener, typically in the form of cocoa powder and sugar. Many varieties use chocolate syrup instead, and some may contain dark or milk chocolate. Caffè mocha, in its most basic formulation, can also be referred to as hot chocolate with (e.g., a shot of) espresso added. Like cappuccino, caffè mochas typically contain the distinctive milk froth on top, although, as is common with hot chocolate, they are sometimes served with whipped cream instead. They are usually topped with a dusting of either cinnamon, sugar or cocoa powder, and marshmallows may also be added on top for flavor and decoration.</p>
+    </header>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("myNavBar").style.width = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("myNavBar").style.width = "0";
+    }
+    </script>
+</body>
+</html>
